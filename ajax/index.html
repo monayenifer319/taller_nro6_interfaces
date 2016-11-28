@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Formulario con Ajax</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<div class="formulario">
+		<h1>Iniciar Sesión</h1>
+		<div class="imagen"></div>
+		<form action="formulario.php" method="POST">
+		
+			<label>Usuario: </label>
+			<input type="text" name="usuario" placeholder="Ingrese Usuario" id="usuario">
+			<br><br>
+			<label>Contraseña: </label>
+			<input id="contrasena" type="password" name="contrasena" placeholder="Ingrese Contraseña">
+			<br><br>
+			<button type="submit" id="boton">Iniciar Sesión</button>
+		</form>	
+	</div>
+	
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/codigo.js"></script>
+</body>
+</html>
